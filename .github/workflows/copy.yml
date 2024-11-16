@@ -18,7 +18,7 @@ on:
       destination_repo:
         description: '目标仓库及标签 (格式 repo:tag)'
         required: true
-        default: 'ikrong/linchuansi/rancher-agent:v2.5.7'
+        default: 'crpi-hsfky64e5ea01528.cn-hangzhou.personal.cr.aliyuncs.com/linchuansi/rancher-agent:v2.5.7'
 
 jobs:
   copy:
