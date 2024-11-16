@@ -10,15 +10,15 @@ on:
       destination:
         description: '目标源 (Registry)'
         required: true
-        default: 'registry.cn-beijing.aliyuncs.com'
+        default: 'crpi-hsfky64e5ea01528.cn-hangzhou.personal.cr.aliyuncs.com'
       source_repo:
         description: '仓库及标签 (格式 repo:tag)'
         required: true
-        default: ''
+        default: 'rancher/rancher-agent:v2.5.7'
       destination_repo:
         description: '目标仓库及标签 (格式 repo:tag)'
         required: true
-        default: ''
+        default: 'ikrong/linchuansi/rancher-agent:v2.5.7'
 
 jobs:
   copy:
